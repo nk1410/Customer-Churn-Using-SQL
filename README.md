@@ -23,4 +23,4 @@ Longer tenure is associated with lower churn rates.\
 Male customers have slightly higher churn rates than female customers.\
 “Mobile Phone” order category has the highest churn rate, while “Grocery” has the lowest.\
 Highly satisfied customers (rating 5) have a relatively higher churn rate.\
-Customer complaints are prevalent among churned customers.\
+Customer complaints are prevalent among churned customers.
