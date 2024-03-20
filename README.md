@@ -13,14 +13,14 @@ Queries includes\
   order category, satisfaction score, and customer complaints.\
   
 ## Insights :
-The dataset includes 1097 customers.
-The overall churn rate is 14.49%.
-Customers who prefer logging in with a computer have slightly higher churn rates compared to phone users.
-Tier 1 cities have lower churn rates than Tier 2 and Tier 3 cities.
-The warehouse affects churn rates, with far customers showing high churn.
-“Cash on Delivery” and “E-wallet” payment modes have higher churn rates, while “Credit Card” and “Debit Card” have lower churn rates.
-Longer tenure is associated with lower churn rates.
-Male customers have slightly higher churn rates than female customers.
-“Mobile Phone” order category has the highest churn rate, while “Grocery” has the lowest.
-Highly satisfied customers (rating 5) have a relatively higher churn rate.
-Customer complaints are prevalent among churned customers.
+The dataset includes 1097 customers.\
+The overall churn rate is 14.49%.\
+Customers who prefer logging in with a computer have slightly higher churn rates compared to phone users.\
+Tier 1 cities have lower churn rates than Tier 2 and Tier 3 cities.\
+The warehouse affects churn rates, with far customers showing high churn.\
+“Cash on Delivery” and “E-wallet” payment modes have higher churn rates, while “Credit Card” and “Debit Card” have lower churn rates.\
+Longer tenure is associated with lower churn rates.\
+Male customers have slightly higher churn rates than female customers.\
+“Mobile Phone” order category has the highest churn rate, while “Grocery” has the lowest.\
+Highly satisfied customers (rating 5) have a relatively higher churn rate.\
+Customer complaints are prevalent among churned customers.\
