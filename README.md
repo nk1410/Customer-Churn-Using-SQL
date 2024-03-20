@@ -2,15 +2,16 @@
 Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame. 
 This Dataset is downloaded from Kaggle.com which contains 20 columns and 1097 rows.
 Information is regarding the customers' personal details, satisfaction scores, preferred payment mode, days since the last order, and cashback amount.
-I used MySQL Workbench to clean and analyze this dataset.
-Queries includes
-  Count the total number of customers.
-  Check for duplicate rows.
-  Identify and handle null values in specific columns.
-  Add new columns for customer status (churned or not churned) and complaint registration.
-  Update and standardize values in various columns for consistency and accuracy.
+I used MySQL Workbench to clean and analyze this dataset.\
+Queries includes\
+  Count the total number of customers.\
+  Check for duplicate rows.\
+  Identify and handle null values in specific columns.\
+  Add new columns for customer status (churned or not churned) and complaint registration.\
+  Update and standardize values in various columns for consistency and accuracy.\
   Perform data exploration and analyze churn rates based on different factors such as preferred login device, city tier, warehouse-to-home distance, payment mode, tenure, gender, app usage,
-  order category, satisfaction score, and customer complaints.
+  order category, satisfaction score, and customer complaints.\
+  
 ## Insights :
 The dataset includes 1097 customers.
 The overall churn rate is 14.49%.
