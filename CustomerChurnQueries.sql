@@ -140,3 +140,19 @@ select Gender, count(*) as TotalCustomer, sum(churn) as Totalchurn , cast((sum(c
 from customerchurn group by Gender order by ChurnRate desc;
 
 /* how does the avg time spent on the app differ for churned and non churned customer ?*/
+
+select CustomerStatus, avg(HourSpendOnApp) as AverageTime from customerchurn group by CustomerStatus;
+
+/* which order category is most prefered among the churned?*/
+
+select PreferedOrderCat, count(*) as TotalCustomer, sum(churn) as Totalchurn , cast((sum(churn)*1.0/count(*)*1.0)*100 as decimal(10,2)) as ChurnRate
+from customerchurn group by PreferedOrderCat order by ChurnRate desc;
+
+/* is there any relation between customer satifaction and churnrate?*/
+select SatisfactionScore, count(*) as TotalCustomer, sum(churn) as Totalchurn , cast((sum(churn)*1.0/count(*)*1.0)*100 as decimal(10,2)) as ChurnRate
+from customerchurn group by SatisfactionScore order by ChurnRate desc;
+
+/* do customer complaint influence churned behaviour */
+select ComplaintRegister, count(*) as TotalCustomer, sum(churn) as Totalchurn , cast((sum(churn)*1.0/count(*)*1.0)*100 as decimal(10,2)) as ChurnRate
+from customerchurn group by ComplaintRegister order by ChurnRate desc;
+
